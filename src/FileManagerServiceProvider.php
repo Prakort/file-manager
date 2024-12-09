@@ -10,11 +10,11 @@ use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use Prakort\FileManager\Commands\FileManagerCommand;
+use Prakort\FileManager\Testing\TestsFileManager;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Prakort\FileManager\Commands\FileManagerCommand;
-use Prakort\FileManager\Testing\TestsFileManager;
 
 class FileManagerServiceProvider extends PackageServiceProvider
 {
